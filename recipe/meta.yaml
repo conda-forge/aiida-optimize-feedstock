@@ -8,8 +8,6 @@ package:
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aiida-optimize-{{ version }}.tar.gz
   sha256: 8df97556c8221d4760d5b0ea4af5446a7b5c0a2138e1cc26dc1cdb2bb8177715
-  patches:
-    - install_requires.patch
 
 build:
   noarch: python
